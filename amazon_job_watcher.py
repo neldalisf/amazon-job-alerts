@@ -32,7 +32,7 @@ NTFY_TOPIC = os.getenv("NTFY_TOPIC", "")                  # optional, leave "" t
 
 SEARCH_PARAMS = {
     "base_query": "",   # keywords ("" for all jobs)
-    "loc_query": "Orlando, Florida",        # location text
+    "loc_query": "",        # location text
     "country": "USA",                    # 3-letter country code (optional)
     "sort": "recent",
     "result_limit": 25,
